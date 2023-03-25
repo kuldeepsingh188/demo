@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Poppins:ital,wght@0,500;0,600;0,700;0,900;1,400;1,500;1,600;1,800;1,900&family=Yantramanav:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+/*======================= Row ===================*/
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+/*======================= Col============================ */
+.col-1 {
+    width: 8.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-2 {
+    width: 16.66%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-3 {
+    width: 25%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-4 {
+    width: 33.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-5 {
+    width: 41.66%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-6 {
+    width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-7 {
+    width: 58.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-8 {
+    width: 66.66%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-9 {
+    width: 75%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-10 {
+    width: 83.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-11 {
+    width: 91.66%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-12 {
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.bg-color {
+    background: #2F1893;
+}
+
+.h-100 {
+    min-height: 100vh;
+}
+
+.transform {
+    transform: translateY(50px);
+}
+
+.m-top30 {
+    margin-top: 30px;
+}
+
+.m-top60 {
+    margin-top: 60px;
+}
+
+.m-right30 {
+    margin-right: 30px;
+}
+
+.p-top60 {
+    padding-top: 60px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.jsc-center {
+    justify-content: center;
+}
+
+.jsc-evenly {
+    justify-content: space-evenly;
+}
+
+.ali-center {
+    align-items: center;
+}
+
+.taxt-center {
+    text-align: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.client-style {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 52px;
+    text-align: center;
+    letter-spacing: -0.4px;
+    color: #FFFFFF;
+}
+
+.startup-style {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box {
+    Width: 270px;
+    Height: 160px;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+}
